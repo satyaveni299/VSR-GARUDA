@@ -1,3 +1,5 @@
+
+this is html code and in the bottom we've kept css code
 <!DOCTYPE html>
 <html lang="en">
 
@@ -284,3 +286,231 @@
 </body>
 
 </html>
+
+............#css code.........,.........
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.vsr {
+    font-size: 190px;
+}
+
+.next {
+    color: white;
+    background-color: black;
+    border: 0px;
+    margin-top: 800px;
+    margin-left: 600px;
+    font-size: 47px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+    object-fit: cover;
+}
+
+section {
+    background: #000;
+    height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    font-size: 5em;
+    font-family: sans-serif;
+}
+
+h1 span {
+    display: inline-block;
+    animation: animate 1s ease-in-out;
+
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0%;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+
+h1 span:nth-child(1) {
+    animation-delay: 0.6s;
+}
+
+h1 span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(3) {
+    animation-delay: 1.7s;
+}
+
+h1 span:nth-child(4) {
+    animation-delay: 2.3s;
+}
+
+h1 span:nth-child(5) {
+    animation-delay: 2.7s;
+}
+
+h1 span:nth-child(6) {
+    animation-delay: 3.2s;
+}
+
+h1 span:nth-child(7) {
+    animation-delay: 3.7s;
+}
+
+h1 span:nth-child(8) {
+    animation-delay: 4s;
+}
+
+.home-section {
+    background-color: #225db0;
+    height: 190vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.object-detection {
+    background-color: #225db0;
+    background-size: cover;
+    height: 160vh;
+
+}
+
+.image {
+    height: 220px;
+    width: 270px;
+    margin: 20px;
+    margin-left: 35px;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    border-radius: 18px;
+}
+
+.tree-card {
+    background-color: white;
+    height: 310px;
+    width: 360px;
+    border-radius: 13px;
+    margin: 15px;
+
+}
+
+.heading-empower {
+    color: white;
+    font-family: Sans-Serif;
+    font-weight: bold;
+    font-size: 55px;
+
+}
+
+.para-empower {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+.item-card {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 36vh;
+    width: 42vw;
+    text-align: center;
+    padding: 20px;
+    margin: 11px;
+    margin-left: 70px;
+    margin-top: 15px;
+
+
+}
+
+.name-container {
+    height: 130vh;
+    width: 100vw;
+}
+
+.item-image {
+    height: 100px;
+}
+
+.forest-image {
+    width: 100vw;
+
+}
+
+.searching-title {
+    color: black;
+    font-size: 65px;
+    margin: 15px;
+}
+
+.input {
+    color: black;
+    font-size: 45px;
+    margin: 29px;
+    margin-top: 79px;
+
+
+}
+
+.input-para {
+    font-size: 25px;
+    margin-left: 170px;
+}
+
+.input-button {
+    height: 100px;
+    width: 1000px;
+    font-size: 49px;
+    margin-top: 59px;
+}
+
+.input-name {
+    font-size: 35px;
+    color: grey;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 15px;
+
+}
+
+.input-button1 {
+    width: 65vw;
+    margin-left: 15px;
+    border-radius: 15px;
+    font-size: 32px;
+}
+
+.input-para1 {
+    margin-left: 125px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+
+
